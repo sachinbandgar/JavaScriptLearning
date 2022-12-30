@@ -1,0 +1,15 @@
+const fruits=["Banana", "Orange","Apple", "Mango", "Water Melon"];
+console.log(`Fruits List:  ${fruits}`);
+console.log(`First element and Last elements: ${fruits[0]}, ${fruits[fruits.length-1]}`);
+fruits.unshift("Papaya");
+console.log("Add elemenets in Start: ",fruits);
+//let delete=fruits.splice(3,3);
+//console.log(delete);
+fruits.push("Pineapple");
+console.log("Add element in last: ",fruits);
+fruits.splice(4,0,"Dragon Fruits");
+console.log("Insert an element -'Dragon Fruit' before 'Water melon' :",fruits);
+fruits.splice(2,1,"Kiwi");
+console.log("Replace an element",fruits);
+//fruits.splice(4);
+//console.log(fruits);
